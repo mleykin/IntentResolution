@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.niit.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="9"
+8-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="9" />
+9-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:4:5-29:19
+12        android:debuggable="true"
+13        android:label="@string/app_name"
+13-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:4:18-50
+14        android:testOnly="true" >
+15        <activity
+15-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:5:5-10:16
+16            android:name="com.niit.android.IntentSampleActivity"
+16-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:5:15-51
+17            android:label="@string/app_name" >
+17-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:5:52-84
+18            <intent-filter>
+18-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:6:5-9:21
+19                <action android:name="android.intent.action.MAIN" />
+19-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:7:9-68
+19-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:7:17-58
+20
+21                <category android:name="android.intent.category.LAUNCHER" />
+21-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:8:9-78
+21-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:8:19-66
+22            </intent-filter>
+23        </activity>
+24        <activity android:name="com.niit.android.TimeActivity" >
+24-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:11:5-16:16
+24-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:11:15-42
+25            <intent-filter>
+25-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:12:5-15:21
+26                <action android:name="com.niit.android.intent.action.showtime" />
+26-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:13:9-81
+26-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:13:17-71
+27
+28                <category android:name="android.intent.category.DEFAULT" />
+28-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:14:9-77
+28-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:14:19-65
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:17:5-22:16
+32            android:name="com.niit.android.DateActivityOne"
+32-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:17:15-45
+33            android:label="Date basic" >
+33-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:17:46-72
+34            <intent-filter>
+34-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:18:5-21:21
+35                <action android:name="com.niit.android.intent.action.showdate" />
+35-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:19:9-81
+35-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:19:17-71
+36
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:14:9-77
+37-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:14:19-65
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:23:5-28:16
+41            android:name="com.niit.android.DateActivityTwo"
+41-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:23:15-45
+42            android:label="Date extended" >
+42-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:23:46-75
+43            <intent-filter>
+43-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:18:5-21:21
+44                <action android:name="com.niit.android.intent.action.showdate" />
+44-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:19:9-81
+44-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:19:17-71
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:14:9-77
+46-->C:\Maxwork\Educational activities\Android\Lectures\2. Activities & Intents\IntentResolution\app\src\main\AndroidManifest.xml:14:19-65
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>

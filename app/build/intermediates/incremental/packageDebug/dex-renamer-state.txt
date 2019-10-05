@@ -1,0 +1,4 @@
+#Tue Sep 18 13:09:49 MSK 2018
+base.0=C\:\\Maxwork\\Educational activities\\Android\\Lectures\\2. Activities & Intents\\IntentResolution\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Maxwork\\Educational activities\\Android\\Lectures\\2. Activities & Intents\\IntentResolution\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
